@@ -1,0 +1,187 @@
+.section {
+  width: 100%;
+
+  background: #fff4e6;
+
+  padding: 120px 0;
+}
+
+.container {
+  width: min(100% - 48px, 1600px);
+
+  margin-inline: auto;
+}
+
+.header {
+  max-width: 720px;
+
+  margin-bottom: 64px;
+}
+
+.eyebrow {
+  margin: 0 0 16px;
+
+  color: #d5850a;
+
+  font-size: 0.85rem;
+  font-weight: 600;
+
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.title {
+  margin: 0 0 20px;
+
+  color: #370d07;
+
+  font-size: clamp(2.5rem, 4vw, 4.5rem);
+  line-height: 1.05;
+
+  font-weight: 700;
+}
+
+.intro {
+  max-width: 620px;
+
+  margin: 0;
+
+  color: #4a3029;
+
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.grid {
+  display: grid;
+
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+
+  gap: 20px;
+}
+
+.card {
+  position: relative;
+
+  min-height: 260px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 32px;
+
+  overflow: hidden;
+
+  border: 1px solid rgba(55, 13, 7, 0.12);
+  border-radius: 24px;
+
+  background: #ffffff;
+
+  color: #370d07;
+
+  transition:
+    transform 220ms ease,
+    box-shadow 220ms ease,
+    border-color 220ms ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+
+  border-color: rgba(213, 133, 10, 0.45);
+
+  box-shadow: 0 20px 50px rgba(55, 13, 7, 0.12);
+}
+
+.cardNumber {
+  font-size: 0.8rem;
+  font-weight: 600;
+
+  color: #d5850a;
+
+  letter-spacing: 0.12em;
+}
+
+.cardContent {
+  max-width: 520px;
+}
+
+.cardContent h3 {
+  margin: 0 0 10px;
+
+  font-size: clamp(1.8rem, 3vw, 3rem);
+  line-height: 1.1;
+
+  font-weight: 600;
+}
+
+.cardContent p {
+  margin: 0;
+
+  color: #6a514a;
+
+  font-size: 0.98rem;
+  line-height: 1.6;
+}
+
+.arrow {
+  position: absolute;
+
+  right: 32px;
+  bottom: 28px;
+
+  font-size: 1.5rem;
+
+  transition: transform 220ms ease;
+}
+
+.card:hover .arrow {
+  transform: translateX(6px);
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 80px 0;
+  }
+
+  .container {
+    width: min(100% - 32px, 1600px);
+  }
+
+  .header {
+    margin-bottom: 40px;
+  }
+
+  .title {
+    font-size: clamp(2.2rem, 10vw, 3.2rem);
+  }
+
+  .intro {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+
+    gap: 16px;
+  }
+
+  .card {
+    min-height: 220px;
+
+    padding: 24px;
+
+    border-radius: 20px;
+  }
+
+  .cardContent h3 {
+    font-size: 2rem;
+  }
+
+  .arrow {
+    right: 24px;
+    bottom: 22px;
+  }
+}

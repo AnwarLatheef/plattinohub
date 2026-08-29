@@ -1,0 +1,10 @@
+{
+  "eyebrow": "About Plattino",
+  "title": "More than just a place to eat.",
+  "description": [
+    "Plattino Hub brings together delicious shakes, desserts, snacks and more.",
+    "From refreshing drinks to satisfying bites, we are here to make every visit something worth remembering."
+  ],
+  "image": "/images/about/owl.jpg",
+  "isActive": true
+}

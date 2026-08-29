@@ -1,0 +1,160 @@
+.hero {
+  position: relative;
+  width: min(100%, 1600px);
+  margin-inline: auto;
+  aspect-ratio: 21 / 9;
+
+  overflow: hidden;
+
+  background: #370d07;
+}
+
+.slides {
+  position: absolute;
+  inset: 0;
+}
+
+.slide {
+  position: absolute;
+  inset: 0;
+
+  opacity: 0;
+
+  transition: opacity 900ms ease;
+}
+
+.active {
+  opacity: 1;
+  z-index: 1;
+}
+
+.slide picture {
+    position: relative;
+  display: block;
+
+  width: 100%;
+  height: 100%;
+}
+
+.slide img {
+  object-fit: cover;
+  object-position: center;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+
+  z-index: 2;
+
+  pointer-events: none;
+
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.15),
+    rgba(0, 0, 0, 0.05)
+  );
+}
+
+.content {
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+
+  z-index: 5;
+
+  transform: translateX(-50%);
+}
+
+.shopButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 52px;
+  padding: 0 30px;
+
+  border-radius: 999px;
+
+  background: #d5850a;
+  color: #ffffff;
+
+  font-size: 1rem;
+  font-weight: 600;
+
+  box-shadow: 0 10px 30px rgba(55, 13, 7, 0.3);
+
+  transition:
+    transform 180ms ease,
+    background-color 180ms ease;
+}
+
+.shopButton:hover {
+  background: #ab7731;
+  transform: translateY(-2px);
+}
+
+.indicators {
+  position: absolute;
+  left: 50%;
+  bottom: 4%;
+
+  z-index: 6;
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  transform: translateX(-50%);
+}
+
+.indicator {
+  width: 32px;
+  height: 4px;
+
+  padding: 0;
+
+  border: 0;
+  border-radius: 999px;
+
+  background: rgba(255, 255, 255, 0.45);
+
+  cursor: pointer;
+
+  transition:
+    width 250ms ease,
+    background-color 250ms ease;
+}
+
+.indicatorActive {
+  width: 48px;
+
+  background: #d5850a;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    aspect-ratio: 9 / 16;
+  }
+
+  .shopButton {
+    min-height: 48px;
+    padding: 0 26px;
+  }
+
+  .content {
+    bottom: 12%;
+  }
+
+  .indicators {
+    bottom: 4%;
+  }
+
+  .indicator {
+    width: 24px;
+  }
+
+  .indicatorActive {
+    width: 38px;
+  }
+}

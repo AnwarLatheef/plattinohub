@@ -1,0 +1,18 @@
+[
+  {
+    "id": "guruvayoor",
+    "name": "Plattino Hub",
+    "address": "Guruvayoor",
+    "city": "Thrissur",
+    "state": "Kerala",
+    "postalCode": "680101",
+    "latitude": 10.5941,
+    "longitude": 76.0411,
+    "phone": "+91 00000 00000",
+    "openingTime": "15:00",
+    "closingTime": "03:00",
+    "isOpen": true,
+    "isActive": true,
+    "displayOrder": 1
+  }
+]

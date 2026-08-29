@@ -1,0 +1,24 @@
+[
+  {
+    "id": "signature-burgers",
+    "title": "Signature Burgers",
+    "desktopImage": "/images/banners/hero-1-desktop.png",
+    "mobileImage": "/images/banners/hero-1-mobile.png",
+    "altText": "Plattino Hub signature burgers",
+    "ctaLabel": "Shop Now",
+    "ctaLink": "/order",
+    "displayOrder": 1,
+    "isActive": true
+  },
+  {
+    "id": "plattino-cafe",
+    "title": "Plattino Hub Café",
+    "desktopImage": "/images/banners/hero-2-desktop.png",
+    "mobileImage": "/images/banners/hero-2-mobile.png",
+    "altText": "Plattino Hub café serving shakes, desserts and snacks",
+    "ctaLabel": "Shop Now",
+    "ctaLink": "/order",
+    "displayOrder": 2,
+    "isActive": true
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "brandDescription": "Shakes, desserts, snacks and more. Made for every craving.",
+  "navigation": [
+    {
+      "label": "About",
+      "href": "/#about"
+    },
+    {
+      "label": "What We Serve",
+      "href": "/#what-we-serve"
+    },
+    {
+      "label": "Stores",
+      "href": "/#stores"
+    },
+    {
+      "label": "Contact",
+      "href": "/#contact"
+    },
+    {
+      "label": "Shop Now",
+      "href": "/order"
+    }
+  ],
+  "socialLinks": [
+    {
+      "label": "Instagram",
+      "href": "https://www.instagram.com/plattino.hub?igsi=MWhjM2k1cWtjM3Bi"
+    },
+    {
+      "label": "Facebook",
+      "href": "#"
+    },
+    {
+      "label": "WhatsApp",
+      "href": "#"
+    }
+  ],
+  "copyright": "© 2026 Plattino Hub. All rights reserved.",
+  "legalLinks": [
+    {
+      "label": "Privacy Policy",
+      "href": "/privacy"
+    },
+    {
+      "label": "Terms & Conditions",
+      "href": "/terms"
+    }
+  ],
+  "isActive": true
+}

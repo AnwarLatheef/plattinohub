@@ -1,0 +1,34 @@
+[
+  {
+    "id": "shakes",
+    "title": "Shakes",
+    "description": "Rich, creamy and irresistible.",
+    "href": "/order?category=shakes",
+    "displayOrder": 1,
+    "isActive": true
+  },
+  {
+    "id": "burgers",
+    "title": "Burgers",
+    "description": "Signature burgers made for serious cravings.",
+    "href": "/order?category=burgers",
+    "displayOrder": 2,
+    "isActive": true
+  },
+  {
+    "id": "desserts",
+    "title": "Desserts",
+    "description": "Sweet treats made to brighten your day.",
+    "href": "/order?category=desserts",
+    "displayOrder": 3,
+    "isActive": true
+  },
+  {
+    "id": "snacks",
+    "title": "Snacks",
+    "description": "Delicious bites for every craving.",
+    "href": "/order?category=snacks",
+    "displayOrder": 4,
+    "isActive": true
+  }
+]
