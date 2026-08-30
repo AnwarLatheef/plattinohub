@@ -1,0 +1,15 @@
+[
+  { "id": "offers", "name": "Offers" },
+  { "id": "redeem", "name": "Redeem" },
+  { "id": "shakes", "name": "Shakes" },
+  { "id": "desserts", "name": "Desserts" },
+  { "id": "snacks", "name": "Snacks" },
+  { "id": "burgers", "name": "Burgers" },
+  { "id": "combos", "name": "Combos" },
+  { "id": "waffles", "name": "Waffles" },
+  { "id": "icecream", "name": "Ice Cream" },
+  { "id": "cakes", "name": "Cakes" },
+  { "id": "coffee", "name": "Coffee" },
+  { "id": "specials", "name": "Specials" }
+  
+]

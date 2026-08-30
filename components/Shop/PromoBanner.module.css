@@ -1,0 +1,149 @@
+.banner {
+  position: relative;
+
+  width: min(100%, 1600px);
+  margin-inline: auto;
+
+  overflow: hidden;
+}
+
+.viewport {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.track {
+  display: flex;
+  width: 100%;
+
+  transition: transform 500ms ease-in-out;
+}
+
+.slide {
+  flex: 0 0 100%;
+  width: 100%;
+}
+
+.slideLink {
+  display: block;
+  width: 100%;
+}
+
+.slideLink picture {
+  display: block;
+  width: 100%;
+}
+
+.slideLink img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Arrows */
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 2;
+
+  width: 42px;
+  height: 42px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0;
+
+  border: 0;
+  border-radius: 50%;
+
+  background: rgba(0, 0, 0, 0.55);
+  color: #ffffff;
+
+  font-size: 30px;
+  line-height: 1;
+
+  cursor: pointer;
+
+  transform: translateY(-50%);
+}
+
+.arrow:hover {
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.previous {
+  left: 18px;
+}
+
+.next {
+  right: 18px;
+}
+
+/* Dots */
+
+.dots {
+  position: absolute;
+  left: 50%;
+  bottom: 14px;
+  z-index: 2;
+
+  display: flex;
+  align-items: center;
+  gap: 7px;
+
+  transform: translateX(-50%);
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+
+  padding: 0;
+
+  border: 0;
+  border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.55);
+
+  cursor: pointer;
+}
+
+.activeDot {
+  width: 22px;
+  border-radius: 999px;
+  background: #ffffff;
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+  .arrow {
+    width: 36px;
+    height: 36px;
+    font-size: 26px;
+  }
+
+  .previous {
+    left: 10px;
+  }
+
+  .next {
+    right: 10px;
+  }
+
+  .dots {
+    bottom: 10px;
+  }
+}
+
+/* Accessibility */
+
+@media (prefers-reduced-motion: reduce) {
+  .track {
+    transition: none;
+  }
+}

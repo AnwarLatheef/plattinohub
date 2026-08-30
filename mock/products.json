@@ -1,0 +1,101 @@
+[
+  {
+    "id": "shake-001",
+    "name": "Chocolate Shake",
+    "description": "Rich and creamy chocolate shake",
+    "image": "/images/shop/products/chocolate-shake.jpg",
+    "price": 149,
+    "categoryId": "shakes",
+    "isAvailable": true,
+    "isOffer": false,
+    "isRedeemable": true
+  },
+  {
+    "id": "shake-002",
+    "name": "Strawberry Shake",
+    "description": "Fresh strawberry milkshake",
+    "image": "/images/shop/products/strawberry-shake.jpg",
+    "price": 159,
+    "categoryId": "shakes",
+    "isAvailable": true,
+    "isOffer": true,
+    "isRedeemable": false
+  },
+  {
+    "id": "dessert-001",
+    "name": "Chocolate Brownie",
+    "description": "Warm chocolate brownie",
+    "image": "/images/shop/products/chocolate-brownie.jpg",
+    "price": 129,
+    "categoryId": "desserts",
+    "isAvailable": true,
+    "isOffer": false,
+    "isRedeemable": true
+  },
+  {
+    "id": "dessert-002",
+    "name": "Brownie With Ice Cream",
+    "description": "Chocolate brownie served with ice cream",
+    "image": "/images/shop/products/brownie-ice-cream.jpg",
+    "price": 179,
+    "categoryId": "desserts",
+    "isAvailable": true,
+    "isOffer": true,
+    "isRedeemable": false
+  },
+  {
+    "id": "snack-001",
+    "name": "French Fries",
+    "description": "Crispy golden fries",
+    "image": "/images/shop/products/french-fries.jpg",
+    "price": 99,
+    "categoryId": "snacks",
+    "isAvailable": true,
+    "isOffer": false,
+    "isRedeemable": false
+  },
+  {
+    "id": "burger-001",
+    "name": "Classic Burger",
+    "description": "Classic burger with fresh ingredients",
+    "image": "/images/shop/products/classic-burger.webp",
+    "price": 199,
+    "categoryId": "burgers",
+    "isAvailable": true,
+    "isOffer": true,
+    "isRedeemable": true
+  },
+  {
+    "id": "burger-002",
+    "name": "Grilled Chicken Burger",
+    "description": "Grilled chicken burger with fresh ingredients",
+    "image": "/images/shop/products/grilled-burger.jpg",
+    "price": 199,
+    "categoryId": "burgers",
+    "isAvailable": true,
+    "isOffer": true,
+    "isRedeemable": true
+  },
+  {
+    "id": "burger-003",
+    "name": "Classic Beef Burger",
+    "description": "Classic beef burger with fresh ingredients",
+    "image": "/images/shop/products/beef-burger.jpg",
+    "price": 199,
+    "categoryId": "burgers",
+    "isAvailable": true,
+    "isOffer": false,
+    "isRedeemable": true
+  },
+  {
+    "id": "burger-004",
+    "name": "Jumbo Burger",
+    "description": "Jumbo burger with fresh ingredients",
+    "image": "/images/shop/products/jumbo-burger.jpg",
+    "price": 199,
+    "categoryId": "burgers",
+    "isAvailable": true,
+    "isOffer": false,
+    "isRedeemable": true
+  }
+]

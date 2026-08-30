@@ -1,0 +1,29 @@
+[
+  {
+    "id": "promotion-001",
+    "title": "Featured Offer",
+    "desktopImage": "/images/shop/banners/desktop-banner-1.webp",
+    "mobileImage": "/images/shop/banners/mobile-banner-1.webp",
+    "alt": "Featured Plattino Hub offer",
+    "href": "/order?category=offers",
+    "isActive": true
+  },
+  {
+    "id": "promotion-002",
+    "title": "New Favourites",
+    "desktopImage": "/images/shop/banners/desktop-banner-2.webp",
+    "mobileImage": "/images/shop/banners/mobile-banner-2.webp",
+    "alt": "New Plattino Hub favourites",
+    "href": "/order?category=shakes",
+    "isActive": true
+  },
+  {
+    "id": "promotion-003",
+    "title": "Special Combo",
+    "desktopImage": "/images/shop/banners/desktop-banner-3.webp",
+    "mobileImage": "/images/shop/banners/mobile-banner-3.webp",
+    "alt": "Special Plattino Hub combo",
+    "href": "/order?category=combos",
+    "isActive": true
+  }
+]
