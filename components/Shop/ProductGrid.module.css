@@ -1,5 +1,6 @@
 .grid {
-  width: 100%;
+  width: min(100%, 1600px);
+  margin-inline: auto;
 
   display: grid;
 
