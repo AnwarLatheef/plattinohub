@@ -1,0 +1,47 @@
+[
+  {
+    "productId": "shake-001",
+    "requiredPoints": 500,
+    "currentPoints": 480,
+    "remainingPoints": 20,
+    "progress": 96,
+    "message": "You're so close! 🔥",
+    "canRedeem": false
+  },
+  {
+    "productId": "dessert-001",
+    "requiredPoints": 450,
+    "currentPoints": 480,
+    "remainingPoints": 0,
+    "progress": 100,
+    "message": "Reward unlocked! 🎉",
+    "canRedeem": true
+  },
+  {
+    "productId": "burger-001",
+    "requiredPoints": 750,
+    "currentPoints": 480,
+    "remainingPoints": 270,
+    "progress": 64,
+    "message": "Your reward is getting closer! 🎯",
+    "canRedeem": false
+  },
+  {
+    "productId": "burger-002",
+    "requiredPoints": 750,
+    "currentPoints": 480,
+    "remainingPoints": 270,
+    "progress": 64,
+    "message": "Your reward is getting closer! 🎯",
+    "canRedeem": false
+  },
+  {
+    "productId": "burger-003",
+    "requiredPoints": 750,
+    "currentPoints": 480,
+    "remainingPoints": 270,
+    "progress": 64,
+    "message": "Your reward is getting closer! 🎯",
+    "canRedeem": false
+  }
+]

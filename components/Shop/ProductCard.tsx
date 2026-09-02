@@ -2,14 +2,18 @@ import Image from "next/image";
 
 import type { ShopProduct } from "@/types/product";
 
+
+
 import styles from "./ProductCard.module.css";
 
 interface ProductCardProps {
   product: ShopProduct;
+ 
 }
 
 export default function ProductCard({
   product,
+
 }: ProductCardProps) {
   return (
     <article className={styles.card}>
@@ -20,6 +24,14 @@ export default function ProductCard({
           fill
           sizes="(max-width: 768px) 50vw, 25vw"
         />
+
+        {product.isOffer &&
+    product.originalPrice !== undefined &&
+    product.originalPrice > product.price && (
+      <span className={styles.offerBadge}>
+        OFFER
+      </span>
+    )}
       </div>
 
       <div className={styles.info}>
@@ -32,9 +44,18 @@ export default function ProductCard({
         </p>
 
         <div className={styles.footer}>
-          <span className={styles.price}>
-            ₹{product.price}
-          </span>
+          <div className={styles.pricing}>
+            {product.originalPrice !== undefined &&
+                product.originalPrice > product.price && (
+                <span className={styles.originalPrice}>
+                    ₹{product.originalPrice}
+                </span>
+                )}
+
+            <span className={styles.price}>
+                ₹{product.price}
+            </span>
+            </div>
 
           <button
             type="button"
@@ -44,6 +65,7 @@ export default function ProductCard({
             {product.isAvailable ? "ADD" : "Unavailable"}
           </button>
         </div>
+       
       </div>
     </article>
   );

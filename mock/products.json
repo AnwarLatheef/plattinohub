@@ -15,7 +15,8 @@
     "name": "Strawberry Shake",
     "description": "Fresh strawberry milkshake",
     "image": "/images/shop/products/strawberry-shake.jpg",
-    "price": 159,
+    "price": 129,
+    "originalPrice": 159,
     "categoryId": "shakes",
     "isAvailable": true,
     "isOffer": true,
@@ -37,7 +38,8 @@
     "name": "Brownie With Ice Cream",
     "description": "Chocolate brownie served with ice cream",
     "image": "/images/shop/products/brownie-ice-cream.jpg",
-    "price": 179,
+    "price": 159,
+    "originalPrice": 179,
     "categoryId": "desserts",
     "isAvailable": true,
     "isOffer": true,
@@ -59,7 +61,8 @@
     "name": "Classic Burger",
     "description": "Classic burger with fresh ingredients",
     "image": "/images/shop/products/classic-burger.webp",
-    "price": 199,
+    "price": 149,
+    "originalPrice": 199,
     "categoryId": "burgers",
     "isAvailable": true,
     "isOffer": true,
@@ -71,6 +74,7 @@
     "description": "Grilled chicken burger with fresh ingredients",
     "image": "/images/shop/products/grilled-burger.jpg",
     "price": 199,
+    "originalPrice": 299,
     "categoryId": "burgers",
     "isAvailable": true,
     "isOffer": true,
@@ -96,6 +100,6 @@
     "categoryId": "burgers",
     "isAvailable": true,
     "isOffer": false,
-    "isRedeemable": true
+    "isRedeemable": false
   }
 ]

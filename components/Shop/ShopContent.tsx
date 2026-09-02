@@ -4,21 +4,27 @@ import { useMemo, useState } from "react";
 
 import type { ShopCategory } from "@/types/category";
 import type { ShopProduct } from "@/types/product";
+import type { Rewards } from "@/types/reward";
 
 import CategoryNavigation from "./CategoryNavigation";
 import ProductGrid from "./ProductGrid";
+import RewardsSection from "./RewardsSection";
 
 import styles from "./ShopContent.module.css";
 
 interface ShopContentProps {
   categories: ShopCategory[];
   products: ShopProduct[];
+  rewards: Rewards[];
 }
 
 export default function ShopContent({
   categories,
   products,
+  rewards,
 }: ShopContentProps) {
+
+    
   const [activeCategory, setActiveCategory] =
     useState("offers");
 
@@ -29,12 +35,6 @@ export default function ShopContent({
       );
     }
 
-    if (activeCategory === "redeem") {
-      return products.filter(
-        (product) =>
-          product.isRedeemable === true,
-      );
-    }
 
     return products.filter(
       (product) =>
@@ -50,9 +50,17 @@ export default function ShopContent({
         onCategoryChange={setActiveCategory}
       />
 
-      <section className={styles.products}>
+      {activeCategory === "redeem" ? (
+  <RewardsSection
+    products={products}
+    rewards={rewards}
+    onKeepEarning={setActiveCategory}
+  />
+) : (
+  <section className={styles.products}>
     <ProductGrid products={filteredProducts} />
-    </section>
+  </section>
+)}
     </div>
   );
 }

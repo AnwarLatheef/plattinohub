@@ -8,6 +8,7 @@ import footerData from "@/mock/footer.json";
 import promotionsData from "@/mock/promotions.json";
 import categoriesData from "@/mock/categories.json";
 import productsData from "@/mock/products.json";
+import rewardsData from "@/mock/rewards.json";
 
 
 import {env} from "@/config/env";
@@ -20,9 +21,11 @@ import type{ ServiceCategory } from '@/types/service';
 import type{ Store } from '@/types/store';
 import type{ FooterContent } from '@/types/footer';
 
+
 import type { Promotion } from "@/types/promotion";
 import type { ShopCategory } from "@/types/category";
 import type { ShopProduct } from "@/types/product";
+import type { Rewards } from "@/types/reward";
 
 import type {
   ContactMessage,
@@ -135,6 +138,16 @@ export async function getProducts(): Promise<ShopProduct[]> {
   }
 
   const response = await api.get<ShopProduct[]>("/products");
+
+  return response.data;
+}
+
+export async function getRewards(): Promise<Rewards[]> {
+  if (env.useMockApi) {
+    return rewardsData as Rewards[];
+  }
+
+  const response = await api.get<Rewards[]>("/rewards/available");
 
   return response.data;
 }

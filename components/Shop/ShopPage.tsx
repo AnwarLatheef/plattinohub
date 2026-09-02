@@ -1,6 +1,7 @@
 import {
   getProducts,
   getPromotions,
+  getRewards,
   getShopCategories,
 } from "@/services/api";
 
@@ -9,11 +10,12 @@ import ShopContent from "./ShopContent";
 import ShopNavigation from "./ShopNavigation";
 
 export default async function ShopPage() {
-  const [promotions, categories, products] =
+  const [promotions, categories, products, rewards] =
     await Promise.all([
       getPromotions(),
       getShopCategories(),
       getProducts(),
+      getRewards(),
     ]);
 
   return (
@@ -26,6 +28,7 @@ export default async function ShopPage() {
         <ShopContent
           categories={categories}
           products={products}
+          rewards={rewards}
         />
       </main>
     </div>

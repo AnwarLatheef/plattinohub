@@ -1,7 +1,7 @@
+
 import type { ShopProduct } from "@/types/product";
 
 import ProductCard from "./ProductCard";
-
 import styles from "./ProductGrid.module.css";
 
 interface ProductGridProps {
@@ -10,6 +10,7 @@ interface ProductGridProps {
 
 export default function ProductGrid({
   products,
+
 }: ProductGridProps) {
   if (products.length === 0) {
     return (
@@ -21,12 +22,17 @@ export default function ProductGrid({
 
   return (
     <div className={styles.grid}>
-      {products.map((product) => (
-        <ProductCard
-          key={product.id}
-          product={product}
-        />
-      ))}
+      {products.map((product) => {
+        
+
+        return (
+          <ProductCard
+            key={product.id}
+            product={product}
+            
+          />
+        );
+      })}
     </div>
   );
 }
