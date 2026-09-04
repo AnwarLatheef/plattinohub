@@ -1,0 +1,166 @@
+[
+  {
+    "branchId": "branch-001",
+    "productId": "shake-001",
+    "price": 149,
+    "isAvailable": true
+  },
+  {
+    "branchId": "branch-001",
+    "productId": "shake-002",
+    "price": 129,
+    "isAvailable": true
+  },
+  {
+    "branchId": "branch-001",
+    "productId": "dessert-001",
+    "price": 129,
+    "isAvailable": true
+  },
+  {
+    "branchId": "branch-001",
+    "productId": "dessert-002",
+    "price": 159,
+    "isAvailable": true
+  },
+  {
+    "branchId": "branch-001",
+    "productId": "snack-001",
+    "price": 99,
+    "isAvailable": true
+  },
+  {
+    "branchId": "branch-001",
+    "productId": "burger-001",
+    "price": 149,
+    "isAvailable": true
+  },
+  {
+    "branchId": "branch-001",
+    "productId": "burger-002",
+    "price": 199,
+    "isAvailable": true
+  },
+  {
+    "branchId": "branch-001",
+    "productId": "burger-003",
+    "price": 199,
+    "isAvailable": true
+  },
+  {
+    "branchId": "branch-001",
+    "productId": "burger-004",
+    "price": 199,
+    "isAvailable": false
+  },
+
+  {
+    "branchId": "branch-002",
+    "productId": "shake-001",
+    "price": 159,
+    "isAvailable": true
+  },
+  {
+    "branchId": "branch-002",
+    "productId": "shake-002",
+    "price": 139,
+    "isAvailable": true
+  },
+  {
+    "branchId": "branch-002",
+    "productId": "dessert-001",
+    "price": 129,
+    "isAvailable": false
+  },
+  {
+    "branchId": "branch-002",
+    "productId": "dessert-002",
+    "price": 169,
+    "isAvailable": true
+  },
+  {
+    "branchId": "branch-002",
+    "productId": "snack-001",
+    "price": 109,
+    "isAvailable": true
+  },
+  {
+    "branchId": "branch-002",
+    "productId": "burger-001",
+    "price": 159,
+    "isAvailable": true
+  },
+  {
+    "branchId": "branch-002",
+    "productId": "burger-002",
+    "price": 209,
+    "isAvailable": false
+  },
+  {
+    "branchId": "branch-002",
+    "productId": "burger-003",
+    "price": 199,
+    "isAvailable": false
+  },
+  {
+    "branchId": "branch-002",
+    "productId": "burger-004",
+    "price": 219,
+    "isAvailable": true
+  },
+
+  {
+    "branchId": "branch-003",
+    "productId": "shake-001",
+    "price": 149,
+    "isAvailable": false
+  },
+  {
+    "branchId": "branch-003",
+    "productId": "shake-002",
+    "price": 129,
+    "isAvailable": true
+  },
+  {
+    "branchId": "branch-003",
+    "productId": "dessert-001",
+    "price": 139,
+    "isAvailable": true
+  },
+  {
+    "branchId": "branch-003",
+    "productId": "dessert-002",
+    "price": 159,
+    "isAvailable": false
+  },
+  {
+    "branchId": "branch-003",
+    "productId": "snack-001",
+    "price": 99,
+    "isAvailable": true
+  },
+  {
+    "branchId": "branch-003",
+    "productId": "burger-001",
+    "price": 149,
+    "isAvailable": true
+  },
+  {
+    "branchId": "branch-003",
+    "productId": "burger-002",
+    "price": 199,
+    "isAvailable": false
+  },
+  {
+    "branchId": "branch-003",
+    "productId": "burger-003",
+    "price": 209,
+    "isAvailable": true
+  },
+  {
+    "branchId": "branch-003",
+    "productId": "burger-004",
+    "price": 209,
+    "isAvailable": true
+  }
+]

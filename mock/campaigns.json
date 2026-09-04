@@ -1,0 +1,59 @@
+[
+  {
+    "id": "campaign-001",
+    "name": "Weekend Burger Sale",
+    "label": "20% OFF",
+    "type": "percentage",
+    "value": 20,
+    "priority": 10,
+    "startsAt": "2026-09-01T00:00:00Z",
+    "endsAt": "2026-09-30T23:59:59Z",
+    "categoryIds": ["burgers"]
+  },
+  {
+    "id": "campaign-002",
+    "name": "Guruvayoor Shake Offer",
+    "label": "₹20 OFF",
+    "type": "fixed",
+    "value": 20,
+    "priority": 20,
+    "startsAt": "2026-09-01T00:00:00Z",
+    "endsAt": "2026-09-30T23:59:59Z",
+    "branchIds": ["branch-001"],
+    "categoryIds": ["shakes"]
+  },
+  {
+    "id": "campaign-003",
+    "name": "Chocolate Shake Special",
+    "label": "₹99 ONLY",
+    "type": "fixed_price",
+    "value": 99,
+    "priority": 30,
+    "startsAt": "2026-09-01T00:00:00Z",
+    "endsAt": "2026-09-30T23:59:59Z",
+    "productIds": ["shake-001"]
+  },
+  {
+    "id": "campaign-004",
+    "name": "Dessert Deal",
+    "label": "₹15 OFF",
+    "type": "fixed",
+    "value": 15,
+    "priority": 5,
+    "startsAt": "2026-09-01T00:00:00Z",
+    "endsAt": "2026-09-30T23:59:59Z",
+    "categoryIds": ["desserts"]
+  },
+  {
+    "id": "campaign-005",
+    "name": "Edappal Burger Sale",
+    "label": "₹30 OFF",
+    "type": "fixed",
+    "value": 30,
+    "priority": 25,
+    "startsAt": "2026-09-01T00:00:00Z",
+    "endsAt": "2026-09-30T23:59:59Z",
+    "branchIds": ["branch-002"],
+    "categoryIds": ["burgers"]
+  }
+]

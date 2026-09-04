@@ -1,0 +1,184 @@
+[
+  {
+    "branchId": "branch-001",
+    "categoryId": "shakes",
+    "isEnabled": true,
+    "displayOrder": 1
+  },
+  {
+    "branchId": "branch-001",
+    "categoryId": "desserts",
+    "isEnabled": true,
+    "displayOrder": 2
+  },
+  {
+    "branchId": "branch-001",
+    "categoryId": "snacks",
+    "isEnabled": true,
+    "displayOrder": 3
+  },
+  {
+    "branchId": "branch-001",
+    "categoryId": "burgers",
+    "isEnabled": true,
+    "displayOrder": 4
+  },
+  {
+    "branchId": "branch-001",
+    "categoryId": "combos",
+    "isEnabled": false,
+    "displayOrder": 5
+  },
+  {
+    "branchId": "branch-001",
+    "categoryId": "waffles",
+    "isEnabled": false,
+    "displayOrder": 6
+  },
+  {
+    "branchId": "branch-001",
+    "categoryId": "icecream",
+    "isEnabled": true,
+    "displayOrder": 7
+  },
+  {
+    "branchId": "branch-001",
+    "categoryId": "cakes",
+    "isEnabled": false,
+    "displayOrder": 8
+  },
+  {
+    "branchId": "branch-001",
+    "categoryId": "coffee",
+    "isEnabled": true,
+    "displayOrder": 9
+  },
+  {
+    "branchId": "branch-001",
+    "categoryId": "specials",
+    "isEnabled": true,
+    "displayOrder": 10
+  },
+
+  {
+    "branchId": "branch-002",
+    "categoryId": "shakes",
+    "isEnabled": true,
+    "displayOrder": 1
+  },
+  {
+    "branchId": "branch-002",
+    "categoryId": "desserts",
+    "isEnabled": false,
+    "displayOrder": 2
+  },
+  {
+    "branchId": "branch-002",
+    "categoryId": "snacks",
+    "isEnabled": true,
+    "displayOrder": 3
+  },
+  {
+    "branchId": "branch-002",
+    "categoryId": "burgers",
+    "isEnabled": true,
+    "displayOrder": 4
+  },
+  {
+    "branchId": "branch-002",
+    "categoryId": "combos",
+    "isEnabled": true,
+    "displayOrder": 5
+  },
+  {
+    "branchId": "branch-002",
+    "categoryId": "waffles",
+    "isEnabled": true,
+    "displayOrder": 6
+  },
+  {
+    "branchId": "branch-002",
+    "categoryId": "icecream",
+    "isEnabled": false,
+    "displayOrder": 7
+  },
+  {
+    "branchId": "branch-002",
+    "categoryId": "cakes",
+    "isEnabled": true,
+    "displayOrder": 8
+  },
+  {
+    "branchId": "branch-002",
+    "categoryId": "coffee",
+    "isEnabled": true,
+    "displayOrder": 9
+  },
+  {
+    "branchId": "branch-002",
+    "categoryId": "specials",
+    "isEnabled": false,
+    "displayOrder": 10
+  },
+
+  {
+    "branchId": "branch-003",
+    "categoryId": "shakes",
+    "isEnabled": true,
+    "displayOrder": 1
+  },
+  {
+    "branchId": "branch-003",
+    "categoryId": "desserts",
+    "isEnabled": true,
+    "displayOrder": 2
+  },
+  {
+    "branchId": "branch-003",
+    "categoryId": "snacks",
+    "isEnabled": true,
+    "displayOrder": 3
+  },
+  {
+    "branchId": "branch-003",
+    "categoryId": "burgers",
+    "isEnabled": true,
+    "displayOrder": 4
+  },
+  {
+    "branchId": "branch-003",
+    "categoryId": "combos",
+    "isEnabled": false,
+    "displayOrder": 5
+  },
+  {
+    "branchId": "branch-003",
+    "categoryId": "waffles",
+    "isEnabled": false,
+    "displayOrder": 6
+  },
+  {
+    "branchId": "branch-003",
+    "categoryId": "icecream",
+    "isEnabled": true,
+    "displayOrder": 7
+  },
+  {
+    "branchId": "branch-003",
+    "categoryId": "cakes",
+    "isEnabled": true,
+    "displayOrder": 8
+  },
+  {
+    "branchId": "branch-003",
+    "categoryId": "coffee",
+    "isEnabled": false,
+    "displayOrder": 9
+  },
+  {
+    "branchId": "branch-003",
+    "categoryId": "specials",
+    "isEnabled": true,
+    "displayOrder": 10
+  }
+]

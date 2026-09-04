@@ -1,0 +1,26 @@
+[
+  {
+    "id": "branch-001",
+    "name": "Plattino Hub Guruvayoor",
+    "address": "West nada, Guruvayoor",
+    "latitude": 10.593719,
+    "longitude": 76.037305,
+    "isOpen": true
+  },
+  {
+    "id": "branch-002",
+    "name": "Plattino Hub Perumpilavu",
+    "address": "School Road, Akkikavu",
+    "latitude": 10.0261,
+    "longitude": 76.3085,
+    "isOpen": true
+  },
+  {
+    "id": "branch-003",
+    "name": "Plattino Hub Edappal",
+    "address": "Near Flyover, Edappal",
+    "latitude": 10.0072,
+    "longitude": 76.3061,
+    "isOpen": false
+  }
+]

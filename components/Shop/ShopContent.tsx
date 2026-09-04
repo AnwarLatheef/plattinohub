@@ -31,7 +31,8 @@ export default function ShopContent({
   const filteredProducts = useMemo(() => {
     if (activeCategory === "offers") {
       return products.filter(
-        (product) => product.isOffer === true,
+        (product) => product.isOffer === true &&
+        product.isAvailable === true,
       );
     }
 

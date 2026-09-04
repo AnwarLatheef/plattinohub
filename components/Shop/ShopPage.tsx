@@ -1,4 +1,6 @@
 import {
+
+  getBranchMenu,
   getProducts,
   getPromotions,
   getRewards,
@@ -9,12 +11,29 @@ import PromoBanner from "./PromoBanner";
 import ShopContent from "./ShopContent";
 import ShopNavigation from "./ShopNavigation";
 
-export default async function ShopPage() {
-  const [promotions, categories, products, rewards] =
+interface ShopPageProps {
+  branchId?: string;
+}
+
+export default async function ShopPage({
+  branchId,
+}: ShopPageProps) {
+  const [promotions, menu, rewards] =
     await Promise.all([
       getPromotions(),
-      getShopCategories(),
-      getProducts(),
+
+      branchId
+        ? getBranchMenu(branchId)
+        : Promise.all([
+            getShopCategories(),
+            getProducts(),
+          ]).then(
+            ([categories, products]) => ({
+              categories,
+              products,
+            }),
+          ),
+
       getRewards(),
     ]);
 
@@ -26,8 +45,8 @@ export default async function ShopPage() {
         <PromoBanner promotions={promotions} />
 
         <ShopContent
-          categories={categories}
-          products={products}
+          categories={menu.categories}
+          products={menu.products}
           rewards={rewards}
         />
       </main>
